@@ -12,3 +12,10 @@ for i in range (9):
     if (i-1 >=0):
         i=i-1
         print(1)
+--------------------------
+for k in range (9):
+    print('\n')
+    for j in range(4):
+        if(k-2**j>=0):
+            k=k-2**j
+            print(2**j)
